@@ -78,13 +78,13 @@ function validateAndSend() {
       navbtn.classList.remove("text-white")
 
       navlinks.classList.add("bg-white","text-slate-600","h-20");
-      navlinks.classList.remove("bg-transparent","text-white");
+      navlinks.classList.remove("bg-transparent","text-white","h-36");
       
     } else{
       navbtn.classList.remove("text-orange-600", "font-bold")
       navbtn.classList.add("text-white")
 
-      navlinks.classList.add("bg-transparent","text-white");
+      navlinks.classList.add("bg-transparent","text-white","h-36");
       navlinks.classList.remove("bg-white","text-slate-600","h-20");
     }
     
