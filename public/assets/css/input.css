@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-link {
+    @apply tracking-wide transition-all duration-500 ease-in-out border-b border-transparent hover:border-orange-400 group-hover:text-white/20 ;
+  }
+}
