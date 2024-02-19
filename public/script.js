@@ -81,7 +81,7 @@ function validateAndSend() {
       navlinks.classList.add("bg-white","text-slate-600","h-20");
       navlinks.classList.remove("bg-transparent","text-white","h-36");
 
-      navtrick.classList.add("bg-white","text-slate-600","h-20");
+      navtrick.classList.add("bg-white","text-slate-600","h-20", "sticky", "flex");
       navtrick.classList.remove("bg-transparent","text-white","h-36","opacity-0","hidden");
       
     } else{
@@ -92,7 +92,7 @@ function validateAndSend() {
       navlinks.classList.remove("bg-white","text-slate-600","h-20");
 
       navtrick.classList.add("bg-transparent","text-white","h-36","opacity-100","hidden");
-      navtrick.classList.remove("bg-white","text-slate-600","h-20");
+      navtrick.classList.remove("bg-white","text-slate-600","h-20", "sticky", "flex");
     }
     
   }

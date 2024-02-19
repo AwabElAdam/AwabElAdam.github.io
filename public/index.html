@@ -18,7 +18,7 @@
   <body class="text-base">
     <nav
       id="navtrick"
-      class="sticky top-0 z-50 flex justify-center w-full text-base tracking-wide text-white transition-all duration-500 ease-in-out border-b h-36 border-slate-50/10"
+      class="top-0 z-50 justify-center hidden w-full text-base tracking-wide text-white transition-all duration-500 ease-in-out border-b h-36 border-slate-50/10"
     >
       <div class="w-[85vw] flex items-center justify-between">
         <div
@@ -253,7 +253,9 @@
       class="flex justify-center py-12 font-sans md:py-20 text-slate-800 from-slate-100 to-slate-50 bg-gradient-to-tr"
       id="reviews"
     >
-      <div class="md:w-[80vw] w-[90vw] flex flex-col items-center justify-center">
+      <div
+        class="md:w-[80vw] w-[90vw] flex flex-col items-center justify-center"
+      >
         <h2 class="tracking-widest uppercase">Reviews</h2>
         <h3 class="mt-2 text-4xl font-black">What Our Patients Say About Us</h3>
         <div
@@ -468,6 +470,15 @@
       </div>
     </section>
 
+    <!-- services -->
+
+    <section
+      class="flex justify-center font-sans text-white md:py-20 from-slate-100 to-slate-50 bg-gradient-to-tr h-96"
+      id="services"
+    >
+      <div class="md:w-[80vw] flex flex-col items-center justify-center"></div>
+    </section>
+
     <!-- doctors section -->
 
     <section
@@ -659,38 +670,49 @@
             <img class="" src="./assets/img/misc/dental_chair.png" alt="" />
           </div>
         </div>
-        <div class="flex flex-col items-center justify-center w-full">
+        <div class="flex flex-col items-center justify-center w-[80vw] pb-12">
           <div
-            class="flex flex-col items-center justify-center w-full md:flex-row"
+            class="grid items-center justify-center w-full rounded-lg md:grid-cols-4 md:flex-row overflow-clip"
           >
-            <img
-              class="object-cover object-center w-auto transition-all duration-700 ease-in-out rounded-l-lg h-[250px] grow-0 hover:grow"
-              src="./assets//img/clinic/clinic_images_1.webp"
-              alt=""
-            />
-            <img
-              class="object-cover object-center w-auto transition-all duration-700 ease-in-out h-[250px] grow-0 hover:grow"
-              src="./assets//img/clinic/clinic_images_4.webp"
-              alt=""
-            />
-            <img
-              class="object-cover object-center w-auto transition-all duration-700 ease-in-out h-[250px] grow-0 hover:grow"
-              src="./assets//img/clinic/clinic_images_12.webp"
-              alt=""
-            />
-            <img
-              class="object-cover object-center w-auto transition-all duration-700 ease-in-out rounded-r-lg h-[250px] grow-0 hover:grow"
-              src="./assets//img/clinic/clinic_images_13.webp"
-              alt=""
-            />
+            <div class="overflow-clip">
+              <img
+                class="object-cover object-center w-auto h-auto transition-all duration-700 ease-in-out hover:scale-105"
+                src="./assets//img/clinic/clinic_images_1.webp"
+                alt=""
+              />
+            </div>
+
+            <div class="overflow-clip">
+              <img
+                class="object-cover object-center w-auto h-auto transition-all duration-700 ease-in-out hover:scale-105"
+                src="./assets//img/clinic/clinic_images_4.webp"
+                alt=""
+              />
+            </div>
+
+            <div class="overflow-clip">
+              <img
+                class="object-cover object-center w-auto h-auto transition-all duration-700 ease-in-out hover:scale-105"
+                src="./assets//img/clinic/clinic_images_12.webp"
+                alt=""
+              />
+            </div>
+
+            <div class="overflow-clip">
+              <img
+                class="object-cover object-center w-auto h-auto transition-all duration-700 ease-in-out hover:scale-105"
+                src="./assets//img/clinic/clinic_images_13.webp"
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!--
-    section template
-    <section
+    <!-- section template -->
+
+    <!-- <section
       class="flex justify-center font-sans text-white md:py-20 from-slate-100 to-slate-50 bg-gradient-to-tr"
       id="reviews"
     >
