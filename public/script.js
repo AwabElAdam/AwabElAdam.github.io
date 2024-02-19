@@ -69,6 +69,7 @@ function validateAndSend() {
 
   // nav bar color change
   const navlinks = document.getElementById('nav');
+  const navtrick = document.getElementById('navtrick');
   const navbtn = document.getElementById('navbtn')
 
   window.onscroll = function () {
@@ -79,13 +80,19 @@ function validateAndSend() {
 
       navlinks.classList.add("bg-white","text-slate-600","h-20");
       navlinks.classList.remove("bg-transparent","text-white","h-36");
+
+      navtrick.classList.add("bg-white","text-slate-600","h-20");
+      navtrick.classList.remove("bg-transparent","text-white","h-36","opacity-0","hidden");
       
     } else{
       navbtn.classList.remove("text-orange-600", "font-bold")
       navbtn.classList.add("text-white")
 
-      navlinks.classList.add("bg-transparent","text-white","h-36");
+      navlinks.classList.add( "bg-transparent","text-white","h-36");
       navlinks.classList.remove("bg-white","text-slate-600","h-20");
+
+      navtrick.classList.add("bg-transparent","text-white","h-36","opacity-100","hidden");
+      navtrick.classList.remove("bg-white","text-slate-600","h-20");
     }
     
   }
