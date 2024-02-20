@@ -262,7 +262,7 @@
         <h2 class="tracking-widest uppercase">Reviews</h2>
         <h3 class="mt-2 text-4xl font-black">What Our Patients Say About Us</h3>
         <div
-          class="grid w-full grid-cols-1 gap-8 mt-12 text-center md:grid-cols-4"
+          class="grid w-full grid-cols-1 gap-2 mt-12 text-center lg:grid-cols-4 md:grid-cols-2"
         >
           <div
             class="flex flex-col items-center justify-center p-8 bg-white rounded-lg shadow"
@@ -407,20 +407,46 @@
       </div>
     </section>
 
+    <!-- section template -->
+
+    <section
+      class="flex justify-center py-10 font-sans text-center text-slate md:py-20 from-slate-100 to-slate-50 bg-gradient-to-tr"
+      id="B&A"
+    >
+      <div class="md:w-[80vw] w-[90%] flex flex-col items-center justify-center">
+        <div class="flex flex-col items-center justify-center">
+          <h2 class="tracking-widest uppercase">Before and after</h2>
+          <h3 class="mt-2 text-4xl font-bold">See the Transformations</h3>
+        </div>
+        <div class="grid w-full gap-1 mt-8 grid-cold-2 md:grid-cols-3">
+          <img src="./assets/img/bnf/01-thumb.webp" class="w-full rounded" alt="">
+          <img src="./assets/img/bnf/02-thumb.webp" class="w-full rounded" alt="">
+          <img src="./assets/img/bnf/03-thumb.webp" class="w-full rounded" alt="">
+          <img src="./assets/img/bnf/04-thumb.webp" class="w-full rounded" alt="">
+          <img src="./assets/img/bnf/05-thumb.webp" class="w-full rounded" alt="">
+          <img src="./assets/img/bnf/06-thumb.webp" class="w-full rounded" alt="">
+
+
+        </div>
+      </div>
+    </section>
+
     <!-- services -->
 
     <section
-      class="flex justify-center font-sans text-slate-900 md:py-20 from-slate-100 to-slate-50 bg-gradient-to-tr"
+      class="flex justify-center py-10 font-sans text-slate-900 md:py-20 from-slate-100 to-slate-50 bg-gradient-to-tr"
       id="services"
     >
-      <div class="md:w-[80vw] flex flex-col items-center justify-center">
+      <div
+        class="md:w-[80vw] w-[90vw] flex flex-col items-center justify-center"
+      >
         <div class="flex flex-col items-center justify-center">
           <h2 class="tracking-widest uppercase">Our Services</h2>
           <h3 class="text-3xl font-black">
-            30% off on all the Dental Services you need
+            30% OFF on all the Dental Services you need
           </h3>
         </div>
-        <div class="grid grid-cols-4 gap-1 mt-24">
+        <div class="grid mt-12 gap-1 md:gap-0.5 md:grid-cols-2 lg:grid-cols-4">
           <div
             class="flex flex-col items-center justify-center w-full h-auto gap-4 transition-all duration-700 ease-in-out bg-white rounded hover:shadow-lg overflow-clip"
           >
@@ -530,26 +556,30 @@
 
     <!-- features section -->
     <section
-      class="flex flex-col items-center justify-center text-white bg-sky-800"
+      class="flex flex-col items-center justify-center text-white bg-slate-800"
       id="features"
     >
       <div
-        class="grid items-center justify-center w-full grid-cols-1 divide-x divide-sky-400 md:grid-cols-4"
+        class="grid items-center justify-center grid-cols-1 divide-y md:divide-x divide-slate-700 md:grid-cols-4 md:w-[80vw]"
       >
-        <div class="flex flex-col items-start justify-center p-12">
+        <div class="flex flex-col items-start justify-center p-12 pl-0">
           <h2 class="text-6xl font-thin leading-snug">Ready for Your Trip?</h2>
           <p class="mt-2">Get a detailed plan for your Trip and Treatment</p>
-          <button class="px-6 py-2 mt-8 border rounded">Book Today</button>
+          <button
+            class="px-6 py-2 mt-8 transition-all ease-in-out border rounded border-white/20 hover:bg-white/30"
+          >
+            Book Today
+          </button>
         </div>
         <div
           class="flex flex-col items-center justify-center h-full border-white/20 hover:tracking-[10px] tracking-[6px] transition-all group duration-700 ease-in-out"
         >
           <div class="relative w-full">
             <div
-              class="absolute w-full h-full transition-all duration-700 bg-sky-800 mix-blend-screen group-hover:opacity-0"
+              class="absolute w-full h-full transition-all duration-700 bg-slate-800 mix-blend-screen group-hover:opacity-0"
             ></div>
             <div
-              class="absolute z-10 w-full h-full transition-all duration-700 bg-gradient-to-t from-sky-800 to-transparent"
+              class="absolute z-10 w-full h-full transition-all duration-700 bg-gradient-to-t from-slate-800 hover:from-slate-800 to-transparent"
             ></div>
 
             <img
@@ -558,7 +588,11 @@
               alt=""
             />
           </div>
-          <h3 class="z-20 mt-4 mb-8 text-white uppercase">transportation</h3>
+          <h3
+            class="z-20 flex items-center justify-center h-full mt-4 mb-8 text-white uppercase"
+          >
+            vip transportation
+          </h3>
         </div>
 
         <div
@@ -566,10 +600,10 @@
         >
           <div class="relative w-full">
             <div
-              class="absolute w-full h-full transition-all duration-700 bg-sky-800 mix-blend-screen group-hover:opacity-0"
+              class="absolute w-full h-full transition-all duration-700 bg-slate-800 mix-blend-screen group-hover:opacity-0"
             ></div>
             <div
-              class="absolute z-10 w-full h-full transition-all duration-700 bg-gradient-to-t from-sky-800 to-transparent"
+              class="absolute z-10 w-full h-full transition-all duration-700 bg-gradient-to-t from-slate-800 to-transparent"
             ></div>
 
             <img
@@ -578,7 +612,11 @@
               alt=""
             />
           </div>
-          <h3 class="z-20 mt-4 mb-8 text-white uppercase">transportation</h3>
+          <h3
+            class="z-20 flex items-center justify-center h-full mt-4 mb-8 text-white uppercase"
+          >
+            hotel reservation
+          </h3>
         </div>
 
         <div
@@ -586,10 +624,10 @@
         >
           <div class="relative w-full">
             <div
-              class="absolute w-full h-full transition-all duration-700 bg-sky-800 mix-blend-screen group-hover:opacity-0"
+              class="absolute w-full h-full transition-all duration-700 bg-slate-800 mix-blend-screen group-hover:opacity-0"
             ></div>
             <div
-              class="absolute z-10 w-full h-full transition-all duration-700 bg-gradient-to-t from-sky-800 to-transparent"
+              class="absolute z-10 w-full h-full transition-all duration-700 bg-gradient-to-t from-slate-800 to-transparent"
             ></div>
 
             <img
@@ -598,7 +636,11 @@
               alt=""
             />
           </div>
-          <h3 class="z-20 mt-4 mb-8 text-white uppercase">transportation</h3>
+          <h3
+            class="z-20 flex items-center justify-center h-full mt-4 mb-8 text-white uppercase"
+          >
+            Translation
+          </h3>
         </div>
       </div>
     </section>
@@ -606,10 +648,16 @@
     <!-- doctors section -->
 
     <section
-      class="flex justify-center md:py-20 from-slate-100 to-slate-50 bg-gradient-to-tr text-slate-600"
+      class="flex flex-col items-center justify-center py-10 md:py-20 from-slate-100 to-slate-50 bg-gradient-to-tr"
       id="doctors"
     >
-      <div class="md:w-[80vw] grid grid-cols-2 md:grid-cols-4">
+      <div class="flex flex-col items-center justify-center">
+        <h2 class="uppercase">our doctors</h2>
+        <h2 class="mt-2 text-4xl font-black">You're in Gracefull Hands</h2>
+      </div>
+      <div
+        class="md:w-[80vw] w-[90vw] grid grid-cols-2 md:grid-cols-4 text-slate-600 mt-8"
+      >
         <div
           class="flex flex-col items-center justify-center w-full transition-all duration-1000 ease-in-out bg-white border hover:-translate-y-1 overflow-clip hover:shadow-lg border-slate-100 hover:border-slate-200 shadow-black/10 hover:z-10"
         >
@@ -837,8 +885,8 @@
     <!-- section template -->
 
     <!-- <section
-      class="flex justify-center font-sans text-white md:py-20 from-slate-100 to-slate-50 bg-gradient-to-tr"
-      id="reviews"
+      class="flex justify-center py-10 font-sans text-white md:py-20 from-slate-100 to-slate-50 bg-gradient-to-tr"
+      id="template"
     >
       <div class="md:w-[80vw] flex flex-col items-center justify-center"></div>
     </section> -->
@@ -846,7 +894,7 @@
     <!-- Footer -->
     <footer
       class="flex justify-center font-sans text-white md:py-20 from-slate-950 to-slate-700 bg-gradient-to-tr"
-      id="reviews"
+      id="footer"
     >
       <div class="md:w-[80vw] flex flex-col items-center justify-center">
         <div>Saphiredent logo</div>
