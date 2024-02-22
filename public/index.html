@@ -20,11 +20,15 @@
       id="navtrick"
       class="top-0 z-50 justify-center hidden w-full text-base tracking-wide text-white transition-all duration-500 ease-in-out border-b h-36 border-slate-50/10"
     >
-      <div class="w-[85vw] flex items-center justify-between">
+      <div class="w-[80vw] flex items-center justify-between">
         <div
-          class="flex items-center justify-center w-full h-full p-8 font-bold uppercase border-r md:w-1/6 border-slate-50/20"
+          class="flex items-center justify-start w-full h-full pr-4 font-bold uppercase border-r md:w-1/5 border-slate-50/20"
         >
-          saphire logo
+          <img
+            src="./assets/img/logos/saphire-logo-color.svg"
+            alt=""
+            class="h-10"
+          />
         </div>
         <div class="items-center justify-center hidden gap-16 md:flex w-fit">
           <a class="hover:text-orange-400" href="#"> Treatments </a>
@@ -42,9 +46,11 @@
         </div>
         <button
           id="navbtn"
-          class="w-full h-full px-6 py-2 text-white md:w-1/6 border-slate-50/20"
+          class="flex items-center justify-end w-full h-full px-6 py-2 pr-0 text-white md:w-1/6 border-slate-50/20"
         >
-          Book Now
+          <div class="p-4 px-6 border rounded border-orange-400/40 w-fit">
+            Book Now
+          </div>
         </button>
       </div>
     </nav>
@@ -55,11 +61,15 @@
         id="nav"
         class="sticky top-0 z-50 flex justify-center w-full text-base tracking-wide text-white transition-all duration-500 ease-in-out border-b h-36 border-slate-50/10"
       >
-        <div class="w-[85vw] flex items-center justify-between">
+        <div class="w-[80vw] flex items-center justify-between">
           <div
-            class="flex items-center justify-center w-full h-full p-8 font-bold uppercase border-r md:w-1/6 border-slate-50/20"
+            class="flex items-center justify-start w-full h-full pr-4 font-bold uppercase border-r md:w-1/5 border-slate-50/20"
           >
-            saphire logo
+            <img
+              src="./assets/img/logos/saphire-logo-white.svg"
+              alt=""
+              class="h-10"
+            />
           </div>
           <div class="items-center justify-center hidden gap-16 md:flex w-fit">
             <a class="hover:text-orange-400" href="#"> Treatments </a>
@@ -77,9 +87,11 @@
           </div>
           <button
             id="navbtn"
-            class="w-full h-full px-6 py-2 text-white md:w-1/6 border-slate-50/20"
+            class="flex items-center justify-end w-full h-full px-6 py-2 pr-0 text-white md:w-1/6 border-slate-50/20"
           >
-            Book Now
+            <div class="p-4 px-6 border rounded border-white/20 w-fit">
+              Book now
+            </div>
           </button>
         </div>
       </nav>
@@ -87,27 +99,35 @@
         class="absolute top-0 left-0 w-full h-full backdrop-brightness-50"
       ></div>
       <div
-        class="md:w-[85vw] h-full my-auto lg:w-[75vw] w-[80vw] z-10 flex flex-col md:flex-row items-center gap-8 justify-between"
+        class="md:w-[80vw] h-full my-auto w-[80vw] z-10 flex flex-col md:flex-row items-center gap-8 justify-between"
       >
-        <div class="w-full text-white md:w-1/2">
-          <h2 class="text-4xl leading-snug tracking-wide">
-            Your Dream Smile Awaits! <br />
-            get a
+        <div class="flex flex-col items-center w-full text-center text-white">
+          <h2 class="text-xl tracking-wide md:text-5xl">
+            Get Your Dream Smile
+
+            <span class="font-serif italic underline decoration-orange-400"
+              >on a Budget!</span
+            >
+          </h2>
+          <h3 class="mt-4 text-2xl font-light">
+            Get a
             <span class="font-black underline decoration-orange-400"
               >30% Discount</span
             >
-            for your new Stunning look Today visit Saphiredent
-          </h2>
+            for your next Dental Treatment
+            <br />
+            Book Today if you're interested
+          </h3>
           <div class="flex items-center gap-4 mt-8">
             <button
-              class="px-6 py-2 text-white transition-all duration-500 ease-in-out bg-orange-500 rounded hover:bg-orange-400"
+              class="px-8 py-4 text-white transition-all duration-500 ease-in-out bg-orange-500 rounded underline-offset-4 hover:bg-orange-400"
             >
-              Book now
+              I Want to Book for my
+              <span class="font-bold underline">Dream Smile</span> Today
             </button>
-            or <a href="#" class="underline">see the Clinics</a>
           </div>
         </div>
-        <div
+        <!-- <div
           class="bg-slate-800/20 px-8 py-12 rounded-md min-w-[350px] backdrop-blur-lg text-white border border-slate-200/20"
         >
           <form
@@ -163,7 +183,7 @@
               Submit
             </button>
           </form>
-        </div>
+        </div> -->
       </div>
       <div
         class="bottom-0 z-10 flex self-end justify-center w-full h-36 md:h-60"
@@ -224,7 +244,7 @@
             <div
               class="flex items-center justify-center p-4 transition-all duration-700 w-28 h-28 group-hover:h-24 group-hover:w-24"
             >
-              <img src="./assets/img/icons/smile.svg" alt="" />
+              <img src="../public/assets/img/icons/smile.svg" alt="" />
             </div>
             <div
               class="transition-all duration-700 group-hover:font-medium group-hover:tracking-widest"
@@ -250,17 +270,69 @@
       </div>
     </header>
 
+    <!-- B&A template -->
+
+    <section
+      class="flex justify-center py-10 font-sans text-center text-slate md:py-20 from-slate-100 to-slate-50 bg-gradient-to-tr"
+      id="B&A"
+    >
+      <div
+        class="md:w-[80vw] w-[90%] flex flex-col items-center justify-center"
+      >
+        <div class="flex flex-col items-center justify-center">
+          <h2 class="tracking-widest uppercase">Before and after</h2>
+          <h3 class="mt-2 text-4xl font-bold">See the Transformations</h3>
+        </div>
+        <div class="grid w-full gap-1 mt-8 grid-cold-2 md:grid-cols-3">
+          <img
+            src="./assets/img/bnf/01-thumb.webp"
+            class="w-full rounded"
+            alt=""
+          />
+          <img
+            src="./assets/img/bnf/02-thumb.webp"
+            class="w-full rounded"
+            alt=""
+          />
+          <img
+            src="./assets/img/bnf/03-thumb.webp"
+            class="w-full rounded"
+            alt=""
+          />
+          <img
+            src="./assets/img/bnf/04-thumb.webp"
+            class="w-full rounded"
+            alt=""
+          />
+          <img
+            src="./assets/img/bnf/05-thumb.webp"
+            class="w-full rounded"
+            alt=""
+          />
+          <img
+            src="./assets/img/bnf/06-thumb.webp"
+            class="w-full rounded"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
     <!-- Reviews -->
 
     <section
-      class="flex justify-center py-12 font-sans md:py-20 text-slate-800 from-slate-100 to-slate-50 bg-gradient-to-tr"
+      class="flex justify-center py-12 font-sans md:py-20 text-slate-800 from-slate-800 to-slate-600 bg-gradient-to-tr"
       id="reviews"
     >
       <div
         class="md:w-[80vw] w-[90vw] flex flex-col items-center justify-center"
       >
-        <h2 class="tracking-widest uppercase">Reviews</h2>
-        <h3 class="mt-2 text-4xl font-black">What Our Patients Say About Us</h3>
+        <div class="flex flex-col text-center text-white">
+          <h2 class="tracking-widest uppercase">Reviews</h2>
+          <h3 class="mt-2 text-4xl font-black">
+            What Our Patients Say About Us
+          </h3>
+        </div>
         <div
           class="grid w-full grid-cols-1 gap-2 mt-12 text-center lg:grid-cols-4 md:grid-cols-2"
         >
@@ -268,7 +340,7 @@
             class="flex flex-col items-center justify-center p-8 bg-white rounded-lg shadow"
           >
             <!-- Review text here -->
-            <p class="w-full line-clamp-3">
+            <p class="w-full">
               "I had an excellent experience at Saphiredent Dental Clinic. The
               staff was friendly, the facilities were clean, and the service was
               top-notch. I highly recommend them!"
@@ -279,7 +351,7 @@
               <div
                 class="flex items-center justify-center gap-2 align-baseline"
               >
-                <h3 class="text-xl font-bold text-[#F5862C]">4.5</h3>
+                <h3 class="text-xl font-bold text-Saphire-Orange">4.5</h3>
                 <img class="w-4" src="./assets/img/icons/star.svg" alt="" />
                 <img class="w-4" src="./assets/img/icons/star.svg" alt="" />
                 <img class="w-4" src="./assets/img/icons/star.svg" alt="" />
@@ -303,7 +375,7 @@
             class="flex flex-col items-center justify-center p-8 bg-white rounded-lg shadow"
           >
             <!-- Review text here -->
-            <p class="w-full line-clamp-3">
+            <p class="w-full">
               "Saphiredent Dental Clinic provides exceptional service. The staff
               is professional and friendly, and the facilities are clean and
               modern. I am very satisfied with my experience!"
@@ -314,7 +386,7 @@
               <div
                 class="flex items-center justify-center gap-2 align-baseline"
               >
-                <h3 class="text-xl font-bold text-[#F5862C]">5.0</h3>
+                <h3 class="text-xl font-bold text-Saphire-Orange">5.0</h3>
                 <img class="w-4" src="./assets/img/icons/star.svg" alt="" />
                 <img class="w-4" src="./assets/img/icons/star.svg" alt="" />
                 <img class="w-4" src="./assets/img/icons/star.svg" alt="" />
@@ -338,7 +410,7 @@
             class="flex flex-col items-center justify-center p-8 bg-white rounded-lg shadow"
           >
             <!-- Review text here -->
-            <p class="w-full line-clamp-3">
+            <p class="w-full">
               "I had an amazing experience at Saphiredent Dental Clinic. The
               dentist was knowledgeable and caring, and the entire staff made me
               feel comfortable. I highly recommend this clinic to everyone!"
@@ -349,7 +421,7 @@
               <div
                 class="flex items-center justify-center gap-2 align-baseline"
               >
-                <h3 class="text-xl font-bold text-[#F5862C]">4.8</h3>
+                <h3 class="text-xl font-bold text-Saphire-Orange">4.8</h3>
                 <img class="w-4" src="./assets/img/icons/star.svg" alt="" />
                 <img class="w-4" src="./assets/img/icons/star.svg" alt="" />
                 <img class="w-4" src="./assets/img/icons/star.svg" alt="" />
@@ -373,7 +445,7 @@
             class="flex flex-col items-center justify-center p-8 bg-white rounded-lg shadow"
           >
             <!-- Review text here -->
-            <p class="w-full line-clamp-3">
+            <p class="w-full">
               "The team at Saphiredent Dental Clinic is outstanding. They are
               professional, courteous, and provide excellent care. I'm extremely
               happy with the service I received!"
@@ -384,7 +456,7 @@
               <div
                 class="flex items-center justify-center gap-2 align-baseline"
               >
-                <h3 class="text-xl font-bold text-[#F5862C]">4.7</h3>
+                <h3 class="text-xl font-bold text-Saphire-Orange">4.7</h3>
                 <img class="w-4" src="./assets/img/icons/star.svg" alt="" />
                 <img class="w-4" src="./assets/img/icons/star.svg" alt="" />
                 <img class="w-4" src="./assets/img/icons/star.svg" alt="" />
@@ -407,30 +479,6 @@
       </div>
     </section>
 
-    <!-- section template -->
-
-    <section
-      class="flex justify-center py-10 font-sans text-center text-slate md:py-20 from-slate-100 to-slate-50 bg-gradient-to-tr"
-      id="B&A"
-    >
-      <div class="md:w-[80vw] w-[90%] flex flex-col items-center justify-center">
-        <div class="flex flex-col items-center justify-center">
-          <h2 class="tracking-widest uppercase">Before and after</h2>
-          <h3 class="mt-2 text-4xl font-bold">See the Transformations</h3>
-        </div>
-        <div class="grid w-full gap-1 mt-8 grid-cold-2 md:grid-cols-3">
-          <img src="./assets/img/bnf/01-thumb.webp" class="w-full rounded" alt="">
-          <img src="./assets/img/bnf/02-thumb.webp" class="w-full rounded" alt="">
-          <img src="./assets/img/bnf/03-thumb.webp" class="w-full rounded" alt="">
-          <img src="./assets/img/bnf/04-thumb.webp" class="w-full rounded" alt="">
-          <img src="./assets/img/bnf/05-thumb.webp" class="w-full rounded" alt="">
-          <img src="./assets/img/bnf/06-thumb.webp" class="w-full rounded" alt="">
-
-
-        </div>
-      </div>
-    </section>
-
     <!-- services -->
 
     <section
@@ -446,106 +494,108 @@
             30% OFF on all the Dental Services you need
           </h3>
         </div>
-        <div class="grid mt-12 gap-1 md:gap-0.5 md:grid-cols-2 lg:grid-cols-4">
+        <div class="grid gap-1 mt-12 md:gap-4 md:grid-cols-2">
           <div
-            class="flex flex-col items-center justify-center w-full h-auto gap-4 transition-all duration-700 ease-in-out bg-white rounded hover:shadow-lg overflow-clip"
+            class="flex items-center justify-center w-full h-auto gap-4 transition-all duration-700 ease-in-out bg-white rounded hover:shadow-lg overflow-clip"
           >
             <img
               src="./assets/img/services/dental_implants.webp"
               alt=""
-              class="object-cover w-full h-60"
+              class="object-cover object-center w-1/2 h-full"
             />
-            <div class="p-8 pt-4 pb-16 text-sm">
-              <div class="flex flex-col mx-6 mt-6">
+
+            <div class="flex flex-col justify-between h-full p-8 pt-4 pb-16 text-sm">
+              <div class="flex flex-col h-full mx-6 mt-6">
                 <h2 class="text-2xl font-medium">Dental Implants</h2>
-                <p class="mt-2 tracking-wide">
+                <p class="h-full mt-2 tracking-wide">
                   Restore your smile and confidence with our advanced dental
                   implant solutions. Our permanent and natural-looking implants
                   fill gaps seamlessly, providing a lasting solution for missing
                   teeth.
                 </p>
+
                 <button
-                  class="px-4 py-2 mt-8 border rounded w-fit border-lime-600 text-lime-600"
+                  class="flex items-baseline gap-1 px-4 py-2 pt-1 mt-8 border rounded w-fit border-slate-400"
                 >
-                  Book a Consultation Today
+                  Get the Price <span class="text-2xl">↗</span>
                 </button>
               </div>
             </div>
           </div>
 
           <div
-            class="flex flex-col items-center justify-center w-full h-auto gap-4 transition-all duration-700 ease-in-out bg-white rounded hover:shadow-lg overflow-clip"
+            class="flex items-center justify-center w-full h-auto gap-4 transition-all duration-700 ease-in-out bg-white rounded hover:shadow-lg overflow-clip"
           >
             <img
               src="./assets/img/services/hollywood_smile.webp"
               alt=""
-              class="object-cover w-full h-60"
+              class="object-cover object-center w-1/2 h-full"
             />
-            <div class="p-8 pt-4 pb-16 text-sm">
-              <div class="flex flex-col mx-6 mt-6">
+            <div class="flex flex-col justify-between h-full p-8 pt-4 pb-16 text-sm">
+              <div class="flex flex-col h-full mx-6 mt-6">
                 <h2 class="text-2xl font-medium">Hollywood Smile</h2>
-                <p class="mt-2 tracking-wide">
+                <p class="h-full mt-2 tracking-wide">
                   Experience a smile transformation with our Hollywood smile
                   makeover services. Using advanced techniques, we craft
                   stunning smiles that radiate confidence and beauty, tailored
                   to your unique features.
                 </p>
                 <button
-                  class="px-4 py-2 mt-8 border rounded w-fit border-lime-600 text-lime-600"
+                  class="flex items-baseline gap-1 px-4 py-2 pt-1 mt-8 border rounded w-fit border-slate-400"
                 >
-                  Book a Consultation Today
+                  Get the Price <span class="text-2xl">↗</span>
                 </button>
               </div>
             </div>
           </div>
 
           <div
-            class="flex flex-col items-center justify-center w-full h-auto gap-4 transition-all duration-700 ease-in-out bg-white rounded hover:shadow-lg overflow-clip"
+            class="flex items-center justify-center w-full h-auto gap-4 transition-all duration-700 ease-in-out bg-white rounded hover:shadow-lg overflow-clip"
           >
             <img
               src="./assets/img/services/surgeries_&_treatments.webp"
               alt=""
-              class="object-cover w-full h-60"
+              class="object-cover object-center w-1/2 h-full"
             />
-            <div class="p-8 pt-4 pb-16 text-sm">
-              <div class="flex flex-col mx-6 mt-6">
+            <div class="flex flex-col justify-between h-full p-8 pt-4 pb-16 text-sm">
+              <div class="flex flex-col h-full mx-6 mt-6">
                 <h2 class="text-2xl font-medium">Dental Veneers</h2>
-                <p class="mt-2 tracking-wide">
+                <p class="h-full mt-2 tracking-wide">
                   Elevate your smile with custom dental veneers, concealing
                   imperfections and creating a flawless appearance. Our veneers
                   offer a radiant and symmetrical smile, boosting your
                   confidence with every grin.
                 </p>
                 <button
-                  class="px-4 py-2 mt-8 border rounded w-fit border-lime-600 text-lime-600"
+                  class="flex items-baseline gap-1 px-4 py-2 pt-1 mt-8 border rounded w-fit border-slate-400"
                 >
-                  Book a Consultation Today
+                  Get the Price <span class="text-2xl">↗</span>
                 </button>
               </div>
             </div>
           </div>
 
           <div
-            class="flex flex-col items-center justify-center w-full h-auto gap-4 transition-all duration-700 ease-in-out bg-white rounded hover:shadow-lg overflow-clip"
+            class="flex items-center justify-center w-full h-auto gap-4 transition-all duration-700 ease-in-out bg-white rounded hover:shadow-lg overflow-clip"
           >
             <img
               src="./assets/img/services/zircon_crowns.webp"
               alt=""
-              class="object-cover w-full h-60"
+              class="object-cover object-center w-1/2 h-full"
             />
-            <div class="p-8 pt-4 pb-16 text-sm">
-              <div class="flex flex-col mx-6 mt-6">
+            <div class="flex flex-col justify-between h-full p-8 pt-4 pb-16 text-sm">
+              <div class="flex flex-col h-full mx-6 mt-6">
                 <h2 class="text-2xl font-medium">Dental Crowns</h2>
-                <p class="mt-2 tracking-wide">
+                <p class="h-full mt-2 tracking-wide">
                   Restore strength and aesthetics with our durable dental
                   crowns, tailored to protect and preserve damaged teeth. Our
                   crowns provide improved functionality and aesthetics, ensuring
                   a healthy and confident smile.
                 </p>
                 <button
-                  class="px-4 py-2 mt-8 border rounded w-fit border-lime-600 text-lime-600"
+                  class="flex items-baseline gap-1 px-4 py-2 pt-1 mt-8 border rounded w-fit border-slate-400"
                 >
-                  Book a Consultation Today
+                  Get the Price <span class="text-2xl">↗</span>
                 </button>
               </div>
             </div>
@@ -554,15 +604,19 @@
       </div>
     </section>
 
+    
+
     <!-- features section -->
     <section
-      class="flex flex-col items-center justify-center text-white bg-slate-800"
+      class="flex flex-col items-end justify-center text-white bg-slate-800"
       id="features"
     >
       <div
-        class="grid items-center justify-center grid-cols-1 divide-y md:divide-x divide-slate-700 md:grid-cols-4 md:w-[80vw]"
+        class="grid items-center justify-center grid-cols-1 divide-y md:divide-x divide-slate-700 md:grid-cols-4 md:w-[90vw]"
       >
-        <div class="flex flex-col items-start justify-center p-12 pl-0">
+        <div
+          class="flex flex-col items-start justify-center p-12 pl-0 md:w-auto w-[90vw] mx-auto"
+        >
           <h2 class="text-6xl font-thin leading-snug">Ready for Your Trip?</h2>
           <p class="mt-2">Get a detailed plan for your Trip and Treatment</p>
           <button
@@ -648,12 +702,16 @@
     <!-- doctors section -->
 
     <section
-      class="flex flex-col items-center justify-center py-10 md:py-20 from-slate-100 to-slate-50 bg-gradient-to-tr"
+      class="flex flex-col items-center justify-center py-10 text-center md:py-20 from-slate-100 to-slate-50 bg-gradient-to-tr"
       id="doctors"
     >
-      <div class="flex flex-col items-center justify-center">
-        <h2 class="uppercase">our doctors</h2>
-        <h2 class="mt-2 text-4xl font-black">You're in Gracefull Hands</h2>
+      <div
+        class="flex flex-col items-center justify-center md:w-[80vw] w-[90vw]"
+      >
+        <h2 class="w-full uppercase">our doctors</h2>
+        <h2 class="w-full mt-2 text-4xl font-black">
+          You're in Gracefull Hands
+        </h2>
       </div>
       <div
         class="md:w-[80vw] w-[90vw] grid grid-cols-2 md:grid-cols-4 text-slate-600 mt-8"
@@ -767,12 +825,12 @@
         </div>
 
         <div
-          class="flex flex-col items-center justify-center w-full col-span-2 text-slate-200 bg-gradient-to-tr from-slate-700 to-slate-900 overflow-clip border-slate-100"
+          class="flex flex-col items-center justify-center w-full col-span-2 text-left text-slate-200 bg-gradient-to-tr from-slate-700 to-slate-900 overflow-clip border-slate-100"
         >
           <div class="flex flex-col w-full h-full gap-8 p-12 pt-16">
             <div>
               <h1
-                class="py-3 text-6xl font-thin text-transparent bg-gradient-to-r from-orange-600 to-orange-300 bg-clip-text"
+                class="py-3 text-6xl text-transparent font-extralight bg-gradient-to-r from-orange-600 to-orange-300 bg-clip-text"
               >
                 Ready for your new smile?
               </h1>
@@ -794,58 +852,126 @@
       </div>
     </section>
 
+    <!-- whyus section -->
+
     <section
       class="flex justify-center font-sans text-white md:pb-20 md:pt-5 from-orange-700 to-orange-400 bg-gradient-to-tr"
       id="whyus"
     >
       <div class="md:w-[80vw] flex flex-col items-center justify-center">
         <div
-          class="flex flex-col items-center justify-between p-12 pt-16 md:flex-row"
+          class="flex flex-col items-center justify-between p-12 px-4 pt-16 md:flex-row"
         >
-          <div class="w-full">
-            <h2 class="text-4xl font-extrabold">Why Choose SaphireDent?</h2>
-            <ul class="flex flex-col justify-between">
-              <li class="mt-6 text-base">
-                <h3 class="font-extrabold">
-                  1. Comprehensive Dental Excellence:
-                </h3>
-                <p class="mt-2 font-light">
-                  SaphireDent offers a complete spectrum of dental services,
-                  ranging from routine check-ups and cleanings to advanced
-                  cosmetic and restorative treatments. Our experienced dentists
-                  utilize state-of-the-art technology to ensure your oral health
-                  is in expert hands.
-                </p>
+          <div class="w-full text-center">
+            <h2 class="tracking-widest uppercase">Why us</h2>
+            <h3 class="text-4xl font-extrabold">Why Choose SaphireDent?</h3>
+            <ul class="grid gap-8 mt-8 md:grid-cols-3 md:gap-8">
+              <li class="w-full h-full text-base text-left">
+                <div
+                  class="flex flex-col h-full p-6 border rounded border-white/20"
+                >
+                  <div>
+                    <img src="./assets/img/icons/excellence.svg" alt="" />
+                  </div>
+                  <div class="mt-6">
+                    <h3 class="font-extrabold">
+                      Comprehensive Dental Excellence
+                    </h3>
+                    <p class="mt-2 font-light">
+                      SaphireDent offers a complete spectrum of dental services,
+                      ranging from routine check-ups and cleanings to advanced
+                      cosmetic and restorative treatments. Our experienced
+                      dentists utilize state-of-the-art technology to ensure
+                      your oral health is in expert hands.
+                    </p>
+                  </div>
+                </div>
               </li>
-              <li class="mt-6 text-base">
-                <h3 class="font-extrabold">2. Patient-Centered Approach:</h3>
-                <p class="mt-2 font-light">
-                  Your comfort and satisfaction are paramount to us. Our
-                  friendly team takes the time to understand your concerns,
-                  answer your questions, and tailor treatment plans to align
-                  with your specific needs and desires. We are here to make your
-                  dental experience positive and stress-free.
-                </p>
+              <li class="w-full h-full text-base text-left">
+                <div
+                  class="flex flex-col h-full p-6 border rounded border-white/20"
+                >
+                  <div>
+                    <img src="./assets/img/icons/patient-centered.svg" alt="" />
+                  </div>
+                  <div class="mt-6">
+                    <h3 class="font-extrabold">Patient-Centered Approach</h3>
+                    <p class="mt-2 font-light">
+                      Your comfort and satisfaction are paramount to us. Our
+                      friendly team takes the time to understand your concerns,
+                      answer your questions, and tailor treatment plans to align
+                      with your specific needs and desires. We are here to make
+                      your dental experience positive and stress-free.
+                    </p>
+                  </div>
+                </div>
               </li>
-              <li class="mt-6 text-base leading-tight">
-                <h3 class="font-extrabold">3. Modern, Inviting Atmosphere:</h3>
-                <p class="mt-2 font-light">
-                  Step into our modern dental facility, where a soothing
-                  atmosphere meets cutting-edge technology. SaphireDent is
-                  dedicated to maintaining the highest standards of cleanliness
-                  and infection control for your safety and peace of mind.
-                </p>
+              <li class="w-full h-full text-base text-left">
+                <div
+                  class="flex flex-col h-full p-6 border rounded border-white/20"
+                >
+                  <div><img src="./assets/img/icons/modern.svg" alt="" /></div>
+                  <div class="mt-6">
+                    <h3 class="font-extrabold">Modern, Inviting Atmosphere</h3>
+                    <p class="mt-2 font-light">
+                      Step into our modern dental facility, where a soothing
+                      atmosphere meets cutting-edge technology. SaphireDent is
+                      dedicated to maintaining the highest standards of
+                      cleanliness and infection control for your safety and
+                      peace of mind.
+                    </p>
+                  </div>
+                </div>
               </li>
             </ul>
           </div>
-          <div class="flex items-center justify-center w-full">
-            <img class="" src="./assets/img/misc/dental_chair.png" alt="" />
-          </div>
         </div>
-        <div class="flex flex-col items-center justify-center w-[80vw] pb-12">
+      </div>
+    </section>
+
+    <!-- whyus section -->
+
+    <section
+      class="flex justify-center font-sans text-white md:pb-20 md:pt-5 from-slate-100 to-slate-50 bg-gradient-to-tr"
+      id="whyus"
+    >
+      <div class="md:w-[80vw] flex flex-col items-center justify-center">
+        <div class="flex flex-col items-center justify-center w-[80vw] py-12">
           <div
             class="grid items-center justify-center w-full rounded-lg md:grid-cols-4 md:flex-row overflow-clip"
           >
+            <div class="overflow-clip">
+              <img
+                class="object-cover object-center w-auto h-auto transition-all duration-700 ease-in-out hover:scale-105"
+                src="./assets//img/clinic/clinic_images_1.webp"
+                alt=""
+              />
+            </div>
+
+            <div class="overflow-clip">
+              <img
+                class="object-cover object-center w-auto h-auto transition-all duration-700 ease-in-out hover:scale-105"
+                src="./assets//img/clinic/clinic_images_1.webp"
+                alt=""
+              />
+            </div>
+
+            <div class="overflow-clip">
+              <img
+                class="object-cover object-center w-auto h-auto transition-all duration-700 ease-in-out hover:scale-105"
+                src="./assets//img/clinic/clinic_images_1.webp"
+                alt=""
+              />
+            </div>
+
+            <div class="overflow-clip">
+              <img
+                class="object-cover object-center w-auto h-auto transition-all duration-700 ease-in-out hover:scale-105"
+                src="./assets//img/clinic/clinic_images_1.webp"
+                alt=""
+              />
+            </div>
+
             <div class="overflow-clip">
               <img
                 class="object-cover object-center w-auto h-auto transition-all duration-700 ease-in-out hover:scale-105"
@@ -882,6 +1008,162 @@
       </div>
     </section>
 
+    <!-- Services Pricing -->
+
+    <section
+      class="flex justify-center py-10 font-sans text-slate-900 md:py-20 from-slate-100 to-slate-50 bg-gradient-to-tr"
+      id="services-pricing"
+    >
+      <div
+        class="md:w-[80vw] w-[90vw] flex flex-col items-center justify-center"
+      >
+        <div class="flex flex-col items-center justify-center">
+          <h2 class="tracking-widest uppercase">Our Services</h2>
+          <h3 class="text-3xl font-black">
+            30% OFF on all the Dental Services you need
+          </h3>
+        </div>
+        <div class="grid gap-1 mt-12 md:gap-2 md:grid-cols-2 lg:grid-cols-4">
+          <div
+            class="flex flex-col items-center justify-center w-full h-auto transition-all duration-700 ease-in-out bg-white rounded hover:shadow-lg overflow-clip"
+          >
+            <img
+              src="./assets/img/services/dental_implants.webp"
+              alt=""
+              class="object-cover object-center w-auto h-full"
+            />
+
+            <div class="p-8 pt-4 pb-16 text-sm">
+              <div class="flex flex-col mx-6 mt-6">
+                <h2 class="text-2xl font-medium">Dental Implants</h2>
+                <div class="flex flex-col justify-center mt-4">
+                  <h4>Prices starting from</h4>
+                  <div
+                    class="flex flex-col items-center w-full gap-2 p-2 mt-2 text-xl text-center border rounded justify-evenly overflow-clip"
+                  >
+                    <h4 class="w-full text-4xl font-bold text-orange-500">
+                      250<span class="text-base text-slate-600">€</span>
+                    </h4>
+                    <h4 class="-mt-3 line-through text-neutral-400">250€</h4>
+                  </div>
+                  <h4 class="mt-2 text-xs">
+                    *Hotel and Transportation included
+                  </h4>
+                </div>
+                <button
+                  class="px-4 py-2 mt-8 border rounded w-fit border-lime-600 text-lime-600"
+                >
+                  Book a Consultation Today
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="flex flex-col items-center justify-center w-full h-auto transition-all duration-700 ease-in-out bg-white rounded hover:shadow-lg overflow-clip"
+          >
+            <img
+              src="./assets/img/services/hollywood_smile.webp"
+              alt=""
+              class="object-cover object-center w-auto h-full"
+            />
+            <div class="p-8 pt-4 pb-16 text-sm">
+              <div class="flex flex-col mx-6 mt-6">
+                <h2 class="text-2xl font-medium">Hollywood Smile</h2>
+                <div class="flex flex-col justify-center mt-4">
+                  <h4>Prices starting from</h4>
+                  <div
+                    class="flex flex-col items-center w-full gap-2 p-2 mt-2 text-xl text-center border rounded justify-evenly overflow-clip"
+                  >
+                    <h4 class="w-full text-4xl font-bold text-orange-500">
+                      250<span class="text-base text-slate-600">€</span>
+                    </h4>
+                    <h4 class="-mt-3 line-through text-neutral-400">250€</h4>
+                  </div>
+                  <h4 class="mt-2 text-xs">
+                    *Hotel and Transportation included
+                  </h4>
+                </div>
+                <button
+                  class="px-4 py-2 mt-8 border rounded w-fit border-lime-600 text-lime-600"
+                >
+                  Book a Consultation Today
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="flex flex-col items-center justify-center w-full h-auto transition-all duration-700 ease-in-out bg-white rounded hover:shadow-lg overflow-clip"
+          >
+            <img
+              src="./assets/img/services/surgeries_&_treatments.webp"
+              alt=""
+              class="object-cover object-center w-auto h-full"
+            />
+            <div class="p-8 pt-4 pb-16 text-sm">
+              <div class="flex flex-col mx-6 mt-6">
+                <h2 class="text-2xl font-medium">Dental Veneers</h2>
+                <div class="flex flex-col justify-center mt-4">
+                  <h4>Prices starting from</h4>
+                  <div
+                    class="flex flex-col items-center w-full gap-2 p-2 mt-2 text-xl text-center border rounded justify-evenly overflow-clip"
+                  >
+                    <h4 class="w-full text-4xl font-bold text-orange-500">
+                      250<span class="text-base text-slate-600">€</span>
+                    </h4>
+                    <h4 class="-mt-3 line-through text-neutral-400">250€</h4>
+                  </div>
+                  <h4 class="mt-2 text-xs">
+                    *Hotel and Transportation included
+                  </h4>
+                </div>
+                <button
+                  class="px-4 py-2 mt-8 border rounded w-fit border-lime-600 text-lime-600"
+                >
+                  Book a Consultation Today
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="flex flex-col items-center justify-center w-full h-auto transition-all duration-700 ease-in-out bg-white rounded hover:shadow-lg overflow-clip"
+          >
+            <img
+              src="./assets/img/services/zircon_crowns.webp"
+              alt=""
+              class="object-cover object-center w-auto h-full"
+            />
+            <div class="p-8 pt-4 pb-16 text-sm">
+              <div class="flex flex-col mx-6 mt-6">
+                <h2 class="text-2xl font-medium">Dental Crowns</h2>
+                <div class="flex flex-col justify-center mt-4">
+                  <h4>Prices starting from</h4>
+                  <div
+                    class="flex flex-col items-center w-full gap-2 p-2 mt-2 text-xl text-center border rounded justify-evenly overflow-clip"
+                  >
+                    <h4 class="w-full text-4xl font-bold text-orange-500">
+                      250<span class="text-base text-slate-600">€</span>
+                    </h4>
+                    <h4 class="-mt-3 line-through text-neutral-400">250€</h4>
+                  </div>
+                  <h4 class="mt-2 text-xs">
+                    *Hotel and Transportation included
+                  </h4>
+                </div>
+                <button
+                  class="px-4 py-2 mt-8 border rounded w-fit border-lime-600 text-lime-600"
+                >
+                  Book a Consultation Today
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- section template -->
 
     <!-- <section
@@ -897,8 +1179,25 @@
       id="footer"
     >
       <div class="md:w-[80vw] flex flex-col items-center justify-center">
-        <div>Saphiredent logo</div>
-        <div>all rights reserved 2024</div>
+        <div class="flex justify-between w-full">
+          <div class="w-full">
+            <div>
+              <img
+                src="./assets/img/logos/saphire-logo-white.svg"
+                alt=""
+                class="w-36"
+              />
+            </div>
+            <div class="flex flex-col">
+              <h3>Get in Touch</h3>
+              <a href="mailto:info@saphiredent.com">Email us</a>
+              <a href="">WhatsApp</a>
+              <a href="tel:+90 552 700 03 80">Call Us</a>
+            </div>
+          </div>
+          <div class="w-full">links</div>
+        </div>
+        <div class="mt-8">© Copyright 2024 Saphire</div>
       </div>
     </footer>
   </body>
