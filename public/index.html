@@ -14,6 +14,8 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
       rel="stylesheet"
     />
+
+    
   </head>
   <body class="text-base">
     <nav
@@ -96,7 +98,7 @@
           >
             <a
               href="#contact"
-              class="p-4 px-6 border rounded border-white/20 w-fit"
+              class="p-4 px-6 transition-all duration-500 ease-in-out border rounded border-white/20 w-fit hover:border-orange-500/20 hover:text-orange-500"
             >
               Book now
             </a>
@@ -125,12 +127,12 @@
             for your next Dental Treatment Book Today
           </h3>
           <div class="flex items-center gap-4 mt-8">
-            <button
+            <a href="#contact"
               class="px-8 py-4 text-white transition-all duration-500 ease-in-out bg-orange-500 rounded underline-offset-4 hover:bg-orange-400"
             >
               I Want to Book for my
               <span class="font-bold underline">Dream Smile</span> Today
-            </button>
+            </a>
           </div>
         </div>
         <!-- <div
@@ -830,7 +832,7 @@
       >
         <div class="flex flex-col items-center justify-center">
           <h2 class="tracking-widest uppercase">Our Services</h2>
-          <h3 class="text-3xl font-black">
+          <h3 class="text-3xl font-black text-center">
             30% OFF on all the Dental Services you need
           </h3>
         </div>
@@ -1286,13 +1288,13 @@
       id="our-clinic"
     >
       <div class="md:w-[80vw] flex flex-col items-center justify-center">
-        <div class="flex flex-col items-center justify-center w-[80vw] py-12">
+        <div class="flex flex-col items-center justify-center md:w-[80vw] w-[90vw] py-12">
           <div class="flex flex-col items-center justify-center">
             <h2 class="tracking-widest uppercase">our clinic</h2>
-            <h3 class="text-4xl font-extrabold">See our Dental Clinics!</h3>
+            <h3 class="text-4xl font-extrabold text-center">See our Dental Clinics!</h3>
           </div>
           <div
-            class="grid items-center justify-center w-full mt-8 rounded-lg md:grid-cols-4 md:flex-row overflow-clip"
+            class="grid items-center justify-center w-full mt-8 rounded md:grid-cols-4 md:flex-row overflow-clip"
           >
             <div class="overflow-clip">
               <img
@@ -1373,7 +1375,7 @@
       >
         <div class="flex flex-col items-center justify-center">
           <h2 class="tracking-widest uppercase">Our Services</h2>
-          <h3 class="text-3xl font-black">
+          <h3 class="text-3xl font-black text-center">
             30% OFF on all the Dental Services you need
           </h3>
         </div>
@@ -1539,38 +1541,31 @@
       <div
         class="md:w-[80vw] w-[90vw] flex flex-col items-center justify-center"
       >
-        <div class="flex flex-col w-full gap-8 md:w-3/4 md:flex-row">
+        <div class="flex flex-col w-full gap-8 md:w-4/5 md:flex-row">
           <div
-            class="flex flex-col justify-between w-full text-center md:text-left"
+            class="flex flex-col justify-center w-full text-center md:text-left"
           >
-            <h2 class="text-2xl md:text-6xl">
+            <h2 class="text-3xl md:text-6xl">
               Get Your
               <span class="font-bold underline decoration-orange-500"
                 >Dream Smile</span
               >
-              in Turkey
+              in Turkey with a <span class="font-serif">30% Discount</span>
             </h2>
-            <h3 class="mt-4 text-sm md:text-base">
+            <h3 class="mt-4 ml-4 text-sm font-light tracking-wider md:text-base">
               Stop waiting and book your Dental Deal Today!
             </h3>
             <ul
               class="flex flex-col items-center w-full gap-4 p-4 pb-8 mt-4 text-xl font-light md:items-start md:w-fit"
             >
-              <li>✔ Airport Reception</li>
+              <li><span class="text-orange-400">✔</span> Airport Reception</li>
               <hr class="w-full border-slate-500" />
-              <li>✔ Hotel Reservation</li>
+              <li><span class="text-orange-400">✔</span> Hotel Reservation</li>
               <hr class="w-full border-slate-500" />
-              <li>✔ VIP Transportation</li>
+              <li><span class="text-orange-400">✔</span> VIP Transportation</li>
               <hr class="w-full border-slate-500" />
-              <li>✔ Translation</li>
+              <li><span class="text-orange-400">✔</span> In Clinic Translation</li>
             </ul>
-            <h3 class="text-lg font-light">
-              All of that with a
-              <span
-                class="text-2xl font-bold underline underline-offset-2 decoration-orange-500"
-                >30% Discount</span
-              >
-            </h3>
           </div>
           <div
             class="bg-slate-800/20 px-8 py-12 rounded-md min-w-[350px] backdrop-blur-lg text-white border border-slate-200/20 md:w-1/2"
@@ -1650,13 +1645,13 @@
     >
       <div class="md:w-[80vw] flex flex-col items-center justify-center">
         <div class="flex flex-col items-center justify-center w-full">
-          <div>
+          <a href="#">
             <img
               src="./assets/img/logos/saphire-logo-color.svg"
               alt=""
               class="w-36"
             />
-          </div>
+          </a>
           <div class="flex items-center justify-center gap-8 mt-8">
             <a href="mailto:info@saphiredent.com">Email us</a>
             <a href="">WhatsApp</a>
