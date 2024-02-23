@@ -71,6 +71,7 @@ function validateAndSend() {
   const navlinks = document.getElementById('nav');
   const navtrick = document.getElementById('navtrick');
   const navbtn = document.getElementById('navbtn')
+  const navbtntrick = document.getElementById('navbtntrick')
 
   window.onscroll = function () {
     if (document.body.scrollTop >= 200 || document.documentElement.scrollTop >= 200 ) {
@@ -81,6 +82,9 @@ function validateAndSend() {
       navlinks.classList.add("bg-white","text-slate-600","h-20");
       navlinks.classList.remove("bg-transparent","text-white","h-36");
 
+      navbtntrick.classList.add("text-orange-600", "font-bold")
+      navbtntrick.classList.remove("text-white")
+
       navtrick.classList.add("bg-white","text-slate-600","h-20", "sticky", "flex");
       navtrick.classList.remove("bg-transparent","text-white","h-36","opacity-0","hidden");
       
@@ -90,6 +94,11 @@ function validateAndSend() {
 
       navlinks.classList.add( "bg-transparent","text-white","h-36");
       navlinks.classList.remove("bg-white","text-slate-600","h-20");
+
+
+      navbtntrick.classList.remove("text-orange-600", "font-bold")
+      navbtntrick.classList.add("text-white")
+
 
       navtrick.classList.add("bg-transparent","text-white","h-36","opacity-100","hidden");
       navtrick.classList.remove("bg-white","text-slate-600","h-20", "sticky", "flex");
