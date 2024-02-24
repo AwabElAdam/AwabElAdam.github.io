@@ -53,7 +53,7 @@ function validateAndSend() {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ name: name, email: email, phone: phone, whatsapp: whatsapp , utm_source: utm_source, utm_medium: utm_medium, utm_campaign: utm_campaign, utm_term: utm_term, utm_content: utm_content, gclid: gclid }),
+      body: JSON.stringify({ "name": name, "email": email, "phone": phone, "whatsapp": whatsapp , "utm_source": utm_source, "utm_medium": utm_medium, "utm_campaign": utm_campaign, "utm_term": utm_term, "utm_content": utm_content, "gclid": gclid }),
     })
       .then((response) => {
         if (response.ok) {
